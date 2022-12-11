@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.bg{
+    background: url(./pagoda.jpg) no-repeat center center/cover ;
+    position: absolute;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+    filter: blur(0px);
+    
+}
+.load-text{
+    font-size: 50px;
+    color: #fff;
+}
